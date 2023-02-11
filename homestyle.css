@@ -12,3 +12,48 @@ a {
 h1{
     font-size : 4em;
 } */
+body {
+    display:grid;
+    grid-template-rows:2fr 1fr;
+    margin: auto 0;
+}
+a {
+    color : black;
+    text-decoration:none;
+}
+header {
+    text-align:center;
+    align-self:end;
+    margin-bottom: 1rem;
+}
+h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+h1 a{
+    color: #2a9d8f;
+}
+header span{
+    font-size: 1.5rem;
+    font-weight:100;
+    font-style: italic;
+    color: #2a9d8f;
+}
+nav {
+    display:grid;
+    text-align: center;
+}
+h2{
+    margin: 1rem 18rem 1rem 18rem;
+    border-bottom: 1px solid #2a9d8f;
+    color:#e76f51;
+}
+.menu{
+    /* padding: 1em 0 1em 0; */
+    padding-bottom: 1.0rem;
+    font-size: 1.2rem;
+}
+.menu a{
+    color: #e76f51;
+}
